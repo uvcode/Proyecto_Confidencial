@@ -1,0 +1,73 @@
+
+#tab .titulo
+{
+    font-size: 20px;
+    text-align: center;
+}
+#tab .detalle_tabs
+{
+    display: inline-block;
+    margin: 5px 8px;
+}
+#tab .detalle_tabs img
+{
+    height: 75px;
+    width: 100px;
+}
+#tab .detalle_tabs .titulo_detalle
+{
+    color: #B22222;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#tab .detalle_tabs .precio
+{
+    color: #228B22;
+    font-weight: 700;
+}
+#tab .detalle_tabs .estado
+{
+    color: #228B22;
+    font-weight: 700;
+}
+ul#tabs 
+{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul#tabs li 
+{
+    background-color: #22A869;
+    border-bottom: solid 5px #238b68;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-right: -5px;
+    padding: 20px 20px;
+}
+ul#tabs li:hover 
+{
+    background-color: #238b68;
+}
+ul#tabs li.activado 
+{
+    background-color: #238b68;
+}
+ul#tab 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul#tab li 
+{
+    display: none;
+}
+ul#tab li.activado 
+{
+    display: block;
+}

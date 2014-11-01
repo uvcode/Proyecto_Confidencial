@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="css/formulario.css">
+
+</head>
+<body>
+	<form  class="product_form" action="#" method="post" name="product_form" runat="server">  
+        <div>  
+            <ul>  
+                <li>  
+                    <h2>Nuevo Producto</h2>  
+                </li> 
+                <li>
+			        <label for="name">Nombre:</label>
+			        <input type="text" name="Nombre" placeholder="Nombre del producto" />
+			    </li> 
+                <li>  
+                    <label for="name">Categoria:</label>  
+                    <select>
+					  <option>Tragos</option>
+					  <option>Vinos</option>
+					  <option>Cerveza</option>
+					</select>  
+                </li>  
+                <li>  
+                    <label for="email">Precio:</label>  
+                    <input type="email" name="email" placeholder="info@developerji.com" required />                      
+                </li>  
+                <li>  
+                    <label class="label_descripcion" for="message">Descripcion:</label>
+                    <textarea name="message" cols="40" rows="6" required></textarea>  
+                </li>  
+                <li class="button">  
+                    <button class="submit" type="submit">Guardar</button>  
+                </li>  
+            </ul>  
+        </div>  
+    </form>  
+</body>
+</html>

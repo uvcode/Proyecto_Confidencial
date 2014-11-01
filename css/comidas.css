@@ -1,0 +1,65 @@
+.derecha
+{
+	float: right;
+	margin-right: 20px;
+}
+.izquierda
+{
+	float: left;
+	margin-left: 15px;
+}
+.aside
+{
+	width: 16%;
+	text-align: center;
+}
+.aside .titulo
+{
+	background: #30D4EF;
+	width: 100%;
+	display: inline-block;
+	border-radius: 8px 8px 0 0;
+}
+.aside .titulo p
+{
+	color: white;
+	font-weight: 800;
+}
+.aside .recomendados
+{
+	width: 100%;
+}
+.aside .recomendados .recomendado .det_recomendado img
+{
+	width: 139px;
+}
+
+#titulo 
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;	
+}
+#contenido .negocio
+{
+	border: 2px dashed #C0C0C0;	
+	margin-top: 25px;
+}
+		
+#contenido .negocio .img_negocio img
+{
+	width: 100%;
+	height: 250px;
+}
+#contenido .negocio .titulo h2
+{
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}
+#contenido .negocio .descripcion p
+{
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}

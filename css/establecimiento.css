@@ -1,0 +1,82 @@
+#titulo .social_es div
+{
+	text-align: center;
+	display: inline-block;
+}
+#titulo .imagen img
+{
+	width: 150px;
+}
+#titulo .facebook,#titulo .twitter
+{
+	font-size: 15px;
+	margin: 0 40px 0  40px;
+}
+#titulo .facebook img,#titulo .twitter img
+{
+	width: 50px;
+}
+#contenido .anuncios .anuncio
+{
+	padding: 15px 20px; 
+}
+#contenido .anuncios .anuncio img
+{
+	width: 100%;
+}
+#contenido .menu_es .ul
+{
+	text-align: center;
+}
+#contenido .menu_es .ul .li
+{
+	display: inline-block;
+	background: #022636;
+	transition: 0.8s;
+}
+#contenido .menu_es .ul .li:hover
+{
+	background: #27566B;
+}
+#contenido .menu_es
+{
+	margin-top: 30px;
+}
+
+#contenido .menu_es .ul .li a
+{	
+	color: white;	
+	padding: 25px 30px;
+	text-decoration: none;
+	display: inline-block;
+}
+#contenido .toggle
+{
+	margin-top: 20px;
+}
+#contenido .toggle .horario
+{
+	border: 2px solid red;
+	height: 150px;
+}
+#contenido .toggle .horario .row
+{
+	display: block;
+	padding: 0;
+	width: 50%;
+	font-size: 13px;
+}
+#contenido .toggle .horario .row figure
+{
+	display: inline-block;
+	margin: 0;
+}
+#contenido .toggle .horario .row figure img
+{
+	width: 30px;
+	vertical-align: middle;
+}
+#contenido .toggle .horario .row span
+{
+
+}

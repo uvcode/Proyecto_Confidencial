@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AquiEsta.com</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/establecimiento.css">
+	<link rel="stylesheet" href="css/comidas.css">
+	<link rel="stylesheet" href="css/admin.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+</head>
+<body>
+	<header class="header">
+		<figure id="logo">
+			<img src="img/logo.png">
+		</figure>
+		<h1 id="titulo_header">BuscaloAqui</h1>
+		<div>
+			<a class="name_user" href="#" title="">Alex Valdes</a>	
+		</div>		
+		<figure id="avatar">
+			<img src="img/avatar.jpg">
+		</figure>
+	</header>
+	<div id="titulo">
+		<p>Mathias Resto-Bar</p>
+		<div class="social_es">			
+			<div class="facebook">
+				<a href="#">
+					<img src="img/facebook.png" alt="">
+				</a>
+				<p>Siguenos</p>
+			</div>
+			<div class="imagen">
+				<img src="img/logo_bar.png" alt="">
+			</div>
+			<div class="twitter">
+				<a href="#">
+					<img src="img/twitter.png" alt="">
+				</a>
+				<p>#Mathias</p>
+			</div>
+		</div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#" title="">Informacion general</a></li>
+			<li><a href="#" title="">Mis productos</a></li>
+			<li><a href="#" title="">Mis Ofertas</a></li>
+		</ul>
+	</nav>
+	<div class="info_content">
+		<p class="titulo_info">Informacion General</p>
+		<div class="descripcion_info">
+			<p><span>Direccion: </span>Jr.Arequipa 619</p>
+			<p><span>Email: </span>empresa@empresa.com</p>
+			<p><span>Telefono: </span>326598</p>
+			<p><span>Gerente: </span>Alex Valdes Flores de Marilin</p>
+			<p><span>Pagina web: </span>www.empresa.com.pe</p>
+			<p><span>RUC: </span>10200412567</p>
+		</div>
+	</div>
+	<div id="section_contenido">
+		<div>
+			<div class="menu_user">
+				<a id="form_newproduct" class="toggle" href="#test" title="">Nuevo Producto</a>
+			</div>
+			<div class="menu_user">
+				<a class="toggle" href="#" title="">Horario de atencion</a>
+			</div>
+			<div class="menu_user">
+				<a class="toggle" href="#" title="">Agregar oferta</a>
+			</div>
+			<div class="menu_user">
+				<a class="toggle" href="#" title="">Mi perfil</a>
+			</div>
+			<div class="menu_user">
+				<a class="toggle" href="#" title="">Marketing</a>
+			</div>
+			<div class="menu_user">
+				<a class="toggle" href="#" title="">Mensajes</a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="test" class="toggle">
+			<div class="form_newproduct">
+				<form  class="product_form" action="#" method="post" name="product_form" runat="server">  
+        <div>  
+            <ul>  
+                <li>  
+                    <h2>Nuevo Producto</h2>  
+                </li> 
+                <li>
+			        <label for="name">Nombre:</label>
+			        <input type="text" name="Nombre" placeholder="Nombre del producto" />
+			    </li> 
+                <li>  
+                    <label for="name">Categoria:</label>  
+                    <select>
+					  <option>Tragos</option>
+					  <option>Vinos</option>
+					  <option>Cerveza</option>
+					</select>  
+                </li>  
+                <li>  
+                    <label for="email">Precio:</label>  
+                    <input type="email" name="email" placeholder="empresa@empresa.com" required />                      
+                </li>  
+                <li>  
+                    <label class="label_descripcion" for="message">Descripcion:</label>  
+                    <textarea name="message" cols="40" rows="6" required></textarea>  
+                </li>  
+                <li class="button">  
+                    <button class="submit" type="submit">Guardar</button>  
+                </li>  
+            </ul>  
+        </div>  
+    </form>  
+			</div>			
+	</div>
+	<section id="services">
+		<div class="titulo">
+			<p>Visite nuestros mejores lugares</p>
+		</div>
+		
+		<article class="service">
+			<div class="img_service">
+				<img src="img/comidas.jpg" alt="Comidas">
+			</div>
+			<a href="#" class="titulo_service">Comidas</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/entretenimiento.jpg" alt="Entretenimiento">
+			</div>
+			<a href="#" class="titulo_service">Entretenimiento</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/deportes.gif" alt="Deportes">
+			</div>
+			<a href="#" class="titulo_service">Deportes</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/turismo.jpg" alt="Turismo">
+			</div>
+			<a href="#" class="titulo_service">Turismo</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/transporte.jpg" alt="Transporte">
+			</div>
+			<a href="#" class="titulo_service">Transporte</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/educacion.jpg" alt="Educacion">
+			</div>
+			<a href="#" class="titulo_service">Educacion</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/tiendas.jpg" alt="Comercio">
+			</div>
+			<a href="#" class="titulo_service">Comercio</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/comidas.jpg" alt="Servicios">
+			</div>
+			<a href="#" class="titulo_service">Servicios</a>
+		</article>
+	</section>
+	
+	<footer>
+			<p><strong>Powered by AbancayDev!</strong></p>
+			<p>ApurimacAqui.com 2014 ®</p>
+	</footer>
+	<script type="text/javascript" src="js/jquery.jscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#section_contenido div .menu_user .toggle').on('click',function(e){
+				e.preventDefault();
+				var strAncla = $(this).attr('href');
+				$('body,html').stop(true,true).animate({
+					scrollTop: $(strAncla).offset().top
+				},1000);
+			});
+		});
+		$("#form_newproduct").click(function () {
+	   $('.form_newproduct').slideToggle();
+	});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AquiEsta.com</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<ul class="rslides">
+	  <li><img class="img_slider" src="img/matias-restobar.jpg" alt="">
+	  	<div class="baner">
+	  		<h2>Mathias Resto-bar</h2>	  		
+	  		<img class="logo" src="img/logo.jpg" alt="">
+	  	</div>
+	  </li>
+	  <li><img class="img_slider" src="img/auris.jpg" alt="">
+	  	<div class="baner">
+				<h2>Discoteka Auris</h2>
+				<img class="logo" src="img/logo.jpg" alt="">
+		</div>
+	  </li>
+	  <li><img class="img_slider" src="img/hotelturista.jpg" alt="">
+	  	<div class="baner">
+				<h2>Hotel Turistas</h2>
+				<img class="logo" src="img/logo.jpg" alt="">
+		</div>
+	  </li>
+	</ul>
+	
+	<nav>
+		<ul>
+			<li><a href="#" title="">Inicio</a></li>
+			<li><a href="#" title="">Nosotros</a></li>
+			<li><a href="#" title="">Contactos</a></li>
+			<!--<li class="buscar">
+				<div class="search right">
+					<form action="" class="relative">
+						<span class="icon-search search-icon"></span>
+						<input type="text" placeholder="ejem: Las Brasas" class="input">
+					</form>
+				</div>
+			</li>-->
+		</ul>
+	</nav>
+	<div id="search">
+		<div class="formularios">
+			<form action="index_submit" method="get">
+				<div class="formulario">
+					<label>Tu departamento</label>
+					<select class="combobox">
+					  <option value="Abancay">Abancay</option>
+					  <option value="Cusco">Cusco</option> 
+					  <option value="Arequipa">Arequipa</option>
+					</select>
+				</div>
+					<div class="formulario">
+					<label>Tu distrito</label>
+					<select class="combobox">
+					  <option value="Abancay">Abancay</option>
+					  <option value="Tamburco">Tamburco</option> 
+					  <option value="Circa">Circa</option>
+					</select>
+				</div>
+				<div class="formulario">
+					<label>Tu dirección</label>
+					<input placeholder="Av. Arenas #357" type="text">
+				</div>
+				<div class="btn">
+					<button type="submit">Buscar</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<section id="services">
+		<div class="titulo">
+			<p>Visite nuestros mejores lugares</p>
+		</div>
+		
+		<article class="service">
+			<div class="img_service">
+				<img src="img/comidas.jpg" alt="Comidas">
+			</div>
+			<a href="#" class="titulo_service">Comidas</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/entretenimiento.jpg" alt="Entretenimiento">
+			</div>
+			<a href="#" class="titulo_service">Entretenimiento</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/deportes.gif" alt="Deportes">
+			</div>
+			<a href="#" class="titulo_service">Deportes</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/turismo.jpg" alt="Turismo">
+			</div>
+			<a href="#" class="titulo_service">Turismo</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/transporte.jpg" alt="Transporte">
+			</div>
+			<a href="#" class="titulo_service">Transporte</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/educacion.jpg" alt="Educacion">
+			</div>
+			<a href="#" class="titulo_service">Educacion</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/tiendas.jpg" alt="Comercio">
+			</div>
+			<a href="#" class="titulo_service">Comercio</a>
+		</article>
+
+		<article class="service">
+			<div class="img_service">
+				<img src="img/comidas.jpg" alt="Servicios">
+			</div>
+			<a href="#" class="titulo_service">Servicios</a>
+		</article>
+	</section>
+	<footer>
+			<p><strong>Powered by AbancayDev!</strong></p>
+			<p>ApurimacAqui.com 2014 ®</p>
+	</footer>
+	<script>
+	  $(function() {
+	    $(".rslides").responsiveSlides();
+	  });
+	</script>
+
+	</body>
+</html>

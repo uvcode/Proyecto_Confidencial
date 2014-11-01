@@ -1,0 +1,213 @@
+body {
+color: #323e4a;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+}
+footer
+{
+	background: #22A869;
+	color: white;
+	padding: 2em 0;
+	text-align: center;
+	width: 100%;
+	margin-top: 540px;
+}
+footer p
+{
+	margin: 0;
+}
+body
+{
+	font-size: 16px;
+}
+
+nav
+{
+	background: #245360;
+	text-align: center;
+	padding: 9px 0;
+	margin: 0;
+	box-shadow: #B0C4DE 0 5px 15px; 
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: #245360;
+	text-decoration: none;
+	padding: 25px 18px;
+	color: white;
+	transition:0.8s;
+}
+nav ul li a:hover
+{
+	background: #3F8193;
+	border-radius: 10px 10px 0 0;
+}
+
+#search
+{
+	background: #edf6dc;
+	border-radius: 4px;
+	border: 1px solid #22A869;
+	box-shadow: 0 1px 0 #fff inset,0px 0 3px 1px #22A869;
+	padding: 10px 20px 0 20px;
+	margin: 20px 8px;
+}
+#search .formularios
+{
+	text-align: center;
+}
+#search .formularios .formulario label
+{
+	display: inline-block;
+	font-weight: bold;
+	margin: 8px 0;
+}
+#search .formularios .formulario .combobox
+{
+	border-radius: 6px;
+	color: #555;
+	display: block;
+	font-size: 18px;
+	height: 40px;
+	line-height: 1.33;
+	padding: 6px 0;
+	width: 100%;
+}
+#search .formularios .formulario input
+{
+	border-radius: 6px;
+	color: #555;
+	display: block;
+	font-size: 18px;
+	height: 26px;
+	line-height: 1.33;
+	padding: 6px 10px;
+	width: 100%;
+}
+#search .formularios .formulario
+{
+	min-height: 1px;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
+#search .formularios .btn
+{
+	margin-bottom: 10px;
+	text-align: center;
+}
+#search .formularios .btn button
+{
+	width: 90%;
+	height: 50px;
+	color: white;	
+	margin-top: 10px;
+	background: #DC143C;
+	border: 2px solid #DC143C;
+	border-radius: 5px;
+}
+
+header
+{
+	background: #434343;
+	color: white;
+	margin: 0;
+	padding: 0.2em;
+}
+.rslides .baner
+{
+	/*background: rgba(21, 28, 23, 0.99);*/
+	/*opacity: 0.90;*/
+	height: 70px;
+	left: 0;
+	padding: 0.5em 0 3em 0;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}
+.rslides .baner h2
+{
+	 text-shadow: #DC143C 3px 8px 15px;
+	/*font-weight: 200;*/
+	color: white;
+	font-size: 28px;
+	text-align: center;
+}
+.rslides .baner .logo
+{
+	border-radius: 50%;
+	width: 70px;
+}
+#services .titulo
+{
+	text-align: center;
+	font-size: 1.5em;
+}
+#services
+{
+	text-align: center;
+}
+#services .service
+{
+	display: inline-block;
+	margin: 10px 18px;
+	border: 2px dashed #B0C4DE;	
+}
+#services .service .img_service img
+{
+	width: 190px;
+	height: 120px;
+}
+#services .service .titulo_service
+{
+	color: #DC143C;
+	display: inline-block;
+	font-weight: bold;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.rslides
+{
+  background: #245360;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.rslides li 
+{
+  -webkit-backface-visibility: hidden;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.rslides li:first-child 
+{
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides .img_slider 
+{
+  /*display: block;*/
+  height: 366px;
+  /*float: left;*/
+  width: 100%;
+  border: 0;
+}
+

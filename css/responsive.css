@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px){
+	.rslides img 
+	{
+		width: 100%;
+		 height: 300px;
+  	}
+	.rslides .baner
+	{
+		left: 0;
+		top: 130px;
+		width: 100%;
+		height: 70px;
+		/*opacity: 0.50;*/
+		text-align: center;
+	}
+	.rslides .baner .logo
+	{
+		width: 90px;
+		height: 80px;
+		border-radius: 50%;
+	}
+	#contenido .negocio
+	{
+		margin: 35px 180px;
+		text-align: center;
+	}
+	.centro
+	{
+		text-align: center;
+	}
+	
+}
+@media screen and (min-width: 990px){
+	#search .formularios .formulario
+	{
+		width: 25%;
+		margin: 0 20px;
+		display: inline-block;
+	}
+	#search .formularios .btn button
+	{
+		width: 30%;
+		font-size: 20px;		
+	}
+	#search .formularios .btn button:hover
+	{
+		text-decoration: underline;
+	}
+
+	
+	
+}
+@media screen and (max-width: 1150px){
+	.aside
+	{
+		display: none;
+	}
+
+	
+	
+}

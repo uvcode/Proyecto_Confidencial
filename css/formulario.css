@@ -1,0 +1,49 @@
+.product_form
+{
+	text-align: left;
+}
+.product_form div li
+{
+	list-style: none;
+	padding: 8px 0;
+}
+.product_form div li h2
+{
+	text-align: center;
+}
+.product_form div li label
+{
+	font-size: 17px;
+	font-weight: 800;
+	 width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+.product_form div li .label_descripcion
+{
+	float:left;
+	margin-top: 10px;
+}
+.product_form div li input
+{
+	height:20px; 
+    width:220px; 
+    padding:5px 8px;
+}
+.product_form div li select	
+{
+	height:30px; 
+    width:220px; 
+    padding:5px 8px;
+}
+.product_form div .button
+{
+	text-align: center;
+}
+.product_form div .button button
+{
+	height:50px; 
+    width:220px;
+	padding: 10px 20px;
+}

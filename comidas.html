@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AquiEsta.com</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/pestanas.css">
+	<link rel="stylesheet" href="css/comidas.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script src="js/pestanas.js"></script>
+	</head>
+<body>
+	<header>
+		
+	</header>
+	<ul class="rslides">
+	  <li><img class="img_slider" src="img/matias-restobar.jpg" alt="">
+	  	<div class="baner">
+	  		<h2>Mathias Resto-bar</h2>	  		
+	  		<img class="logo" src="img/logo.jpg" alt="">
+	  	</div>
+	  </li>
+	  <li><img class="img_slider" src="img/auris.jpg" alt="">
+	  	<div class="baner">
+				<h2>Discoteka Auris</h2>
+				<img class="logo" src="img/logo.jpg" alt="">
+		</div>
+	  </li>
+	  <li><img class="img_slider" src="img/hotelturista.jpg" alt="">
+	  	<div class="baner">
+				<h2>Hotel Turistas</h2>
+				<img class="logo" src="img/logo.jpg" alt="">
+		</div>
+	  </li>
+	</ul>
+	
+	<nav>
+		<ul>
+			<li><a href="#" title="">Inicio</a></li>
+			<li><a href="#" title="">Nosotros</a></li>
+			<li><a href="#" title="">Contactos</a></li>
+			<!--<li class="buscar">
+				<div class="search right">
+					<form action="" class="relative">
+						<span class="icon-search search-icon"></span>
+						<input type="text" placeholder="ejem: Las Brasas" class="input">
+					</form>
+				</div>
+			</li>-->
+		</ul>
+	</nav>
+	
+	<div id="search">
+		<div class="formularios">
+			<form action="index_submit" method="get">
+				<div class="centro">
+					<div class="formulario">
+						<label>Tu departamento</label>
+						<select class="combobox">
+						  <option value="Abancay">Abancay</option>
+						  <option value="Cusco">Cusco</option> 
+						  <option value="Arequipa">Arequipa</option>
+						</select>
+					</div>
+						<div class="formulario">
+						<label>Tu distrito</label>
+						<select class="combobox">
+						  <option value="Abancay">Abancay</option>
+						  <option value="Tamburco">Tamburco</option> 
+						  <option value="Circa">Circa</option>
+						</select>
+					</div>
+					<div class="formulario">
+						<label>Tu dirección</label>
+						<input placeholder="Av. Arenas #357" type="text">
+					</div>
+				</div>
+				
+				<div class="btn">
+					<button type="submit">Buscar</button>
+				</div>
+			</form>
+		</div>
+	</div>
+<!--
+	<div class="aside izquierda">
+		<div class="titulo">
+			<p>RECOMENDADOS</p>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+	</div>
+
+	<div class="aside derecha">
+		<div class="titulo">
+			<p>RECOMENDADOS</p>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+		<div class="recomendados">
+			<article class="recomendado">
+				<div class="titulo_recomendado">
+					<p>Auris discoteca</p>
+				</div>
+				<div class="det_recomendado">
+					<img src="img/comidas.jpg">
+					<p class="producto_titulo">Ron Apleton</p>
+					<p class"precio">S/.25.50</p>
+				</div>
+			</article>
+		</div>
+	</div>
+-->
+	<div id="titulo">
+		<p>Encuentra tu mejor opción en comidas</p>
+		<div class="imagen">
+			<img src="img/comida_logo.png" alt="">
+		</div>
+	</div>
+	<section id="contenido">
+		<div class="negocio">
+			<div class="img_negocio">
+				<img src="img/mathias.jpg">
+			</div>
+			<div class="titulo">
+				<h2>Matias Resto - Bar</h2>
+			</div>
+			<div class="descripcion">
+				<p class="oferta">Ofertas: Ron apleton, Wiski, Pisco y mucho mas.</p>
+				<p class="ubicacion">Ubicanos: Av.Arenas #???  Tel: 325487</p>
+			</div>
+		</div>
+		<div class="negocio">
+			<div class="img_negocio">
+				<img src="img/mathias.jpg">
+			</div>
+			<div class="titulo">
+				<h2>Matias Resto - Bar</h2>
+			</div>
+			<div class="descripcion">
+				<p class="oferta">Ofertas: Ron apleton, Wiski, Pisco y mucho mas.</p>
+				<p class="ubicacion">Ubicanos: Av.Arenas #???  Tel: 325487</p>
+			</div>
+		</div>
+
+		<div class="contenido_tabs">
+		<ul id="tabs">
+		    <li class="activado">Recomendación del chef</li>
+		    <li>Ofertas</li>
+		    <li>Platos del día</li>
+		    <li>Postres</li>
+		    <li>Bebidas</li>
+		</ul>
+		<ul id="tab">
+		    <li class="activado">
+			      <div class="titulo">
+					<p>Recomendación del Chef</p>
+				  </div>				
+				<article class="detalle_tabs">
+					<div class="img_detalle">
+						<img src="img/comidas.jpg" alt="Comidas">
+					</div>
+					<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+					<p class="precio">S/.12.00</p>
+					<p class="estado">Disponible</p>
+				</article>
+				<article class="detalle_tabs">
+					<div class="img_detalle">
+						<img src="img/comidas.jpg" alt="Comidas">
+					</div>
+					<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+					<p class="precio">S/.12.00</p>
+					<p class="estado">Disponible</p>
+				</article>
+				<article class="detalle_tabs">
+					<div class="img_detalle">
+						<img src="img/comidas.jpg" alt="Comidas">
+					</div>
+					<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+					<p class="precio">S/.12.00</p>
+					<p class="estado">Disponible</p>
+				</article>
+				<article class="detalle_tabs">
+					<div class="img_detalle">
+						<img src="img/comidas.jpg" alt="Comidas">
+					</div>
+					<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+					<p class="precio">S/.12.00</p>
+					<p class="estado">Disponible</p>
+				</article>
+		    </li>
+		    <li >
+		        <div class="titulo">
+					<p>Ofertas</p>
+			 	 </div>				
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/transporte.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/transporte.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/transporte.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/transporte.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+		    </li>
+		    <li>
+		        <div class="titulo">
+				<p>Platos del día</p>
+			  </div>				
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/entretenimiento.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/entretenimiento.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/entretenimiento.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/entretenimiento.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+		    </li>
+		    <li>
+		         <div class="titulo">
+				<p>Postres</p>
+			  </div>				
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/tiendas.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/tiendas.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/tiendas.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/tiendas.jpg" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+		    </li>
+		    <li>
+		         <div class="titulo">
+				<p>Bebidas</p>
+			  </div>				
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/deportes.gif" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/deportes.gif" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/deportes.gif" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+			<article class="detalle_tabs">
+				<div class="img_detalle">
+					<img src="img/deportes.gif" alt="Comidas">
+				</div>
+				<a href="#" class="titulo_detalle">Pollo a la brasa 1/4</a>
+				<p class="precio">S/.12.00</p>
+				<p class="estado">Disponible</p>
+			</article>
+		    </li>
+		</ul>			
+		</div>		
+	</section>
+
+	<footer>
+			<p><strong>Powered by AbancayDev!</strong></p>
+			<p>ApurimacAqui.com 2014 ®</p>
+	</footer>
+	<script>
+	  $(function() {
+	    $(".rslides").responsiveSlides();
+	  });
+	</script>
+	</body>
+</html>
